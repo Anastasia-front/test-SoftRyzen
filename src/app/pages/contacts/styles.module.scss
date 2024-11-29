@@ -1,22 +1,22 @@
 .bg {
 	@media screen and (min-width: 0px) {
-		background-image: url(/background/mobile/s6-1x.jpg);
+		background-image: url(/background/mobile/sunrise-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/mobile/s6-2x.jpg);
+			background-image: url(/background/mobile/sunrise-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 768px) {
-		background-image: url(/background/tablet/s6-1x.jpg);
+		background-image: url(/background/tablet/sunrise-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/tablet/s6-2x.jpg);
+			background-image: url(/background/tablet/sunrise-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 1440px) {
-		background-image: url(/background/desktop/s6-1x.jpg);
+		background-image: url(/background/desktop/sunrise-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/desktop/s6-2x.jpg);
+			background-image: url(/background/desktop/sunrise-2x.jpg);
 		}
 	}
 }

@@ -1,22 +1,22 @@
 .bg {
 	@media screen and (min-width: 0px) {
-		background-image: url(/background/mobile/s2-1x.jpg);
+		background-image: url(/background/mobile/coupleOnStone-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/mobile/s2-2x.jpg);
+			background-image: url(/background/mobile/coupleOnStone-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 768px) {
-		background-image: url(/background/tablet/s2-1x.jpg);
+		background-image: url(/background/tablet/coupleOnStone-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/tablet/s2-2x.jpg);
+			background-image: url(/background/tablet/coupleOnStone-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 1440px) {
-		background-image: url(/background/desktop/s2-1x.jpg);
+		background-image: url(/background/desktop/coupleOnStone-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/desktop/s2-2x.jpg);
+			background-image: url(/background/desktop/coupleOnStone-2x.jpg);
 		}
 	}
 }

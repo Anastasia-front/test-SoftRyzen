@@ -1,22 +1,22 @@
 .bg {
 	@media screen and (min-width: 0px) {
-		background-image: url(/background/mobile/s5-1x.jpg);
+		background-image: url(/background/mobile/darkForest-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/mobile/s5-2x.jpg);
+			background-image: url(/background/mobile/darkForest-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 768px) {
-		background-image: url(/background/tablet/s5-1x.jpg);
+		background-image: url(/background/tablet/darkForest-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/tablet/s5-2x.jpg);
+			background-image: url(/background/tablet/darkForest-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 1440px) {
-		background-image: url(/background/desktop/s5-1x.jpg);
+		background-image: url(/background/desktop/darkForest-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/desktop/s5-2x.jpg);
+			background-image: url(/background/desktop/darkForest-2x.jpg);
 		}
 	}
 }

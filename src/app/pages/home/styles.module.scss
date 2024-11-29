@@ -1,22 +1,22 @@
 .bg {
 	@media screen and (min-width: 0px) {
-		background-image: url(/background/mobile/s1-1x.jpg);
+		background-image: url(/background/mobile/mountainFields-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/mobile/s1-2x.jpg);
+			background-image: url(/background/mobile/mountainFields-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 768px) {
-		background-image: url(/background/tablet/s1-1x.jpg);
+		background-image: url(/background/tablet/mountainFields-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/tablet/s1-2x.jpg);
+			background-image: url(/background/tablet/mountainFields-2x.jpg);
 		}
 	}
 
 	@media screen and (min-width: 1440px) {
-		background-image: url(/background/desktop/s1-1x.jpg);
+		background-image: url(/background/desktop/mountainFields-1x.jpg);
 		@media screen and (min-resolution: 2dppx) {
-			background-image: url(/background/desktop/s1-2x.jpg);
+			background-image: url(/background/desktop/mountainFields-2x.jpg);
 		}
 	}
 }

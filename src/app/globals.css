@@ -3,43 +3,54 @@
 @tailwind utilities;
 
 body {
-	color: #fff;
-	background: #000;
-	scroll-behavior: smooth;
-	user-select: none;
+  color: #fff;
+  background: #000;
+  scroll-behavior: smooth;
+  /* user-select: none; */
+  /* user-select: ; */
+}
+
+::selection {
+  background-color: #b6b6b6;
+  color: #084e5e;
+}
+
+::-webkit-selection {
+  background-color: #b6b6b6;
+  color: #084e5e;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 a:hover,
 button:hover {
-	text-shadow: 1px 0 10px #fff;
+  text-shadow: 1px 0 10px #fff;
 }
 
 #buttonJoinUs:hover {
-	text-shadow: none;
+  text-shadow: none;
 }
 
 button:disabled:hover {
-	text-shadow: none;
+  text-shadow: none;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 img {
-	display: block;
-	margin: 0;
+  display: block;
+  margin: 0;
 }
 
 h1,
@@ -50,39 +61,39 @@ h5,
 h6,
 p,
 ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :active,
 :hover,
 :focus {
-	outline: 0;
-	outline-offset: 0;
-	transition: all 0.3s ease;
+  outline: 0;
+  outline-offset: 0;
+  transition: all 0.3s ease;
 }
 
 .loader {
-	border: 8px solid #fff;
-	border-top: 8px solid #333;
-	border-radius: 50%;
-	width: 28px;
-	height: 22px;
-	animation: spin 2s linear infinite;
+  border: 8px solid #fff;
+  border-top: 8px solid #333;
+  border-radius: 50%;
+  width: 28px;
+  height: 22px;
+  animation: spin 2s linear infinite;
 }
 
 @media screen and (min-width: 500px) {
-	.loader {
-		width: 50px;
-		height: 50px;
-	}
+  .loader {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @keyframes spin {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
