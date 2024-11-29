@@ -12,9 +12,7 @@ import { Textarea } from "@/app/components/Textarea/Textarea";
 
 import { useText } from "@/app/context/TextDataContext";
 
-import { isObjectEmpty } from "@/app/helpers/isObjectEmpty";
-// import { loadDataFromLocalStorage } from "@/app/helpers/loadDataFromLocalStorage";
-import { saveDataToLocalStorage } from "@/app/helpers/saveDataToLocalStorage";
+import { saveDataToLocalStorage, isObjectEmpty} from "@/app/helpers";
 
 import { FormFields, FormFieldsData } from "@/app/types/formTypes";
 

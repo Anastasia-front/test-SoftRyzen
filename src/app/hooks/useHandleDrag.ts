@@ -2,7 +2,8 @@ import { useCallback } from "react";
 
 import type { HTMLMotionProps, PanInfo } from "framer-motion";
 
-import { calculateSwipeOffset } from "../helpers/calculateSwipeOffset";
+import { calculateSwipeOffset } from "../helpers";
+
 
 export function useHandleDrag(
 	callbackRight: (dir?: number) => void,
