@@ -236,10 +236,10 @@
 				"type": "https://",
 				"name": "Follow us",
 				"items": [
-					{ "id": 1, "value": "facebook", "href": "#" },
-					{ "id": 2, "value": "instagram", "href": "#" },
-					{ "id": 3, "value": "youtube", "href": "#" },
-					{ "id": 4, "value": "tiktok", "href": "#" }
+					{ "id": 1, "value": "facebook", "href": "https://www.facebook.com/travelcarpathia1/" },
+					{ "id": 2, "value": "instagram", "href": "https://www.instagram.com/travelcarpathia/" },
+					{ "id": 3, "value": "youtube", "href": "https://www.youtube.com/@travelcarpathia" },
+					{ "id": 4, "value": "tiktok", "href": "https://www.tiktok.com/channel/carpathian-mountains" }
 				]
 			}
 		],
